@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tomiktuts.tridmeodpad.MainActivity" >
+
+    
+      <item
+          
+        android:id="@+id/facebook"
+        android:orderInCategory="200"
+        android:title="Facebook"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_web_white_24dp"/>
+      <item
+          
+        android:id="@+id/email"
+        android:orderInCategory="100"
+        android:title="Email"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_email_white_24dp"/>
+
+    <item
+
+        android:id="@+id/person"
+        android:orderInCategory="300"
+        android:title="Vývojář"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_person_pin_white_24dp"/>
+    
+
+</menu>

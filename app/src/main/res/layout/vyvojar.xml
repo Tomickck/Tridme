@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+  <TextView
+      android:id="@+id/body"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:layout_marginTop="20dp"
+      android:gravity="center"
+      android:text="Jmenuji se Tomáš Vítek a je mi 16 let. Zde máte pár sociálních sítí, na kterých mě můžete najít."
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:textColor="#1E88E5"
+      android:textSize="25sp" />
+
+ <ScrollView
+     android:layout_width="wrap_content"
+     android:layout_height="fill_parent"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignWithParentIfMissing="true"
+     android:layout_below="@+id/body"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="20dp"
+     android:gravity="center"
+     android:scaleType="fitCenter" >
+
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="match_parent"
+     android:gravity="center"
+     android:orientation="vertical"
+     android:scaleType="fitCenter" >
+
+  <Button
+      android:id="@+id/fbbtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/body"
+      android:layout_marginBottom="7dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="#1E88E5"
+      android:drawableLeft="@drawable/fb"
+      android:gravity="center"
+      android:onClick="onFacebook"
+      android:text="Facebook"
+      android:textColor="#ffffff"
+      android:textSize="25sp" />
+
+  <Button
+      android:id="@+id/ytbtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/fbbtn"
+      android:layout_alignRight="@+id/fbbtn"
+      android:layout_below="@+id/fbbtn"
+      android:layout_marginBottom="7dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="#CD332D"
+      android:drawableLeft="@drawable/yt"
+      android:gravity="center"
+      android:onClick="onYoutube"
+      android:text="Youtube"
+      android:textColor="#ffffff"
+      android:textSize="25sp" />
+
+   <Button
+       android:id="@+id/instbtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:layout_below="@+id/ytbtn"
+       android:layout_marginBottom="7dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:background="#517fa4"
+       android:drawableLeft="@drawable/inst"
+       android:gravity="center"
+       android:onClick="onInstagram"
+       android:text="Instagram"
+       android:textColor="#ffffff"
+       android:textSize="25sp" />
+
+  <Button
+      android:id="@+id/andbtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/fbbtn"
+      android:layout_alignParentBottom="true"
+      android:layout_alignRight="@+id/fbbtn"
+      android:layout_below="@+id/instbtn"
+      android:layout_marginBottom="10dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="#A4C639"
+      android:drawableLeft="@drawable/and"
+      android:gravity="center"
+      android:onClick="onAndroid"
+      android:text="Android Apps"
+      android:textColor="#ffffff"
+      android:textSize="25sp" />
+    
+ </LinearLayout>
+
+ </ScrollView>
+</RelativeLayout>

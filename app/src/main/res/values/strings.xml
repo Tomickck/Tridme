@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Třiďme</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+
+    <string-array name="planets_array">
+        <item>SKLO</item>
+        <item>PLAST</item>
+        <item>PAPÍR</item>
+        <item>NÁPOJOVÉ KARTONY</item>
+        <item>KOVY</item>
+        <item>NEBEZPEČNÝ ODPAD</item>
+        <item>ELEKTROZAŘÍZENÍ A BATERIE</item>
+        <item>BIOODPAD</item>
+    </string-array>
+
+    <string-array name="action_list">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+    </string-array>
+</resources>

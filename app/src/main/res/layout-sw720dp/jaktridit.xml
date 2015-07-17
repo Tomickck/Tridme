@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/typ"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:scaleType="fitCenter" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:scaleType="fitCenter" >
+
+                <Button
+                    android:id="@+id/sklo"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#43A047"
+                    android:onClick="onSklo"
+                    android:text="SKLO"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/plast"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFEA00"
+                    android:onClick="onPlast"
+                    android:text="PLAST"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/papir"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#1976D2"
+                    android:onClick="onPapír"
+                    android:text="PAPÍR"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/napkartony"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#EF6C00"
+                    android:onClick="onNapojoveKartony"
+                    android:text="NÁPOJOVÉ KARTONY"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/kovy"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#BDBDBD"
+                    android:onClick="onKovy"
+                    android:text="KOVY"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/nebodpad"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#D32F2F"
+                    android:onClick="onNebezpecnyOdpad"
+                    android:text="NEBEZPEČNÝ ODPAD"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/baterie"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#7B1FA2"
+                    android:onClick="onBaterie"
+                    android:text="ELEKTROZAŘÍZENÍ A BATERIE"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/bioodpad"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#5D4037"
+                    android:onClick="onBioodpad"
+                    android:text="BIOODPAD"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/myFragment"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:name="com.tomiktuts.tridmeodpad.InfoFragment"
+        tools:layout="@layout/more_information">
+
+    </fragment>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#1E88E5</color>
+
+    <color name="primaryColorDark">#1565C0</color>
+
+
+    <color name="sklo">#43A047</color>
+
+    <color name="plast">#FFEA00</color>
+    <color name="papir">#1976D2</color>
+
+    <color name="kartony">#EF6C00</color>
+    <color name="kovy">#BDBDBD</color>
+
+    <color name="odpad">#D32F2F</color>
+    <color name="baterie">#7B1FA2</color>
+
+    <color name="bioodpad">#5D4037</color>
+    <color name="proc">#EF6C00</color>
+
+
+
+
+</resources>
